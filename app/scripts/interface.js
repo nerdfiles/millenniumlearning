@@ -12,6 +12,7 @@ define([
   "routes/initialize",
   "routes/secured",
   "angular-route",
+  "angular-material",
   "angular-animate",
   "angular-cookies",
   "angular-resource",
@@ -28,7 +29,6 @@ define([
 ], function (angularAMD, setup, authenticate, initialize, secured) {
 
   var __interface__ = angular.module("mlts", [
-    "firebase",
     "ngRoute",
     "ngAnimate",
     'ngAria',
@@ -37,7 +37,9 @@ define([
     "ngResource",
     "ngSanitize",
     "ngTouch",
+    "ngMaterial",
     "leaflet-directive",
+    "firebase",
   ]);
 
   secured(__interface__);

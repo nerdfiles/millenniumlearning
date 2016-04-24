@@ -43,9 +43,6 @@ require.config({
       ],
       "exports": "L"
     },
-    "lodash": {
-      "exports": "_"
-    },
     "angular": {
       "exports": "angular"
     },
@@ -57,7 +54,6 @@ require.config({
       "firebase"
     ],
     "angular-leaflet-directive": [
-
       "angular",
       "leaflet"
     ],
