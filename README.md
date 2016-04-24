@@ -10,10 +10,11 @@ A learning management system facilitates the following:
 
 ## “Nice to have” Features
 
-1. Video Content Embedding
+1. Video Content Embedding for “Video Response Answers”
 2. TeX and Markdown formatting for answering and posting questions
 3. Social Network Engagement and Sharing
 4. Personal Digital Workspaces for Students
+5. Real-time P2P Digital Writeboard
 
 ## Setup
 
