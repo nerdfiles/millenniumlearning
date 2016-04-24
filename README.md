@@ -11,6 +11,9 @@ A learning management system facilitates the following:
 ## TODO Features
 
 1. Micropayments and Microsubscriptions with Stripe (port `mini_charge` plugin).
+2. Students will be able to sign up to answer questions, but they will have to  
+   pay to see other students answers. Everyone can see the questions, but students  
+   have to pay to see the answers.
 
 ## “Nice to have” Features
 
