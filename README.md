@@ -8,6 +8,10 @@ A learning management system facilitates the following:
 2. Students can tip other students to answer questions;
 3. Students can post questions when subscribed with a microsubscription
 
+## TODO Features
+
+1. Micropayments and Microsubscriptions with Stripe (port `mini_charge` plugin).
+
 ## “Nice to have” Features
 
 1. Video Content Embedding for “Video Response Answers”
