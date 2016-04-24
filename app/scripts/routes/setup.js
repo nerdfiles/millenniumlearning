@@ -1,6 +1,6 @@
 /**
  * @ngdoc overview
- * @name ourpangea:routes.setup
+ * @name mlts:routes.setup
  * @description
  * @usage
  *   resolve: {

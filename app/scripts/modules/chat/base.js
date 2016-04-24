@@ -1,6 +1,6 @@
 /**
  * @ngdoc function
- * @name ourpangea.controller:ChatCtrl
+ * @name mlts.controller:ChatCtrl
  * @description
  * Some chat module for chatters in the map.
  */

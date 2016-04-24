@@ -1,8 +1,8 @@
 /**
  * @ngdoc function
- * @name ourpangea.controller:MainCtrl
+ * @name mlts.controller:MainCtrl
  * @description
- * Dashboard Controller of the ourpangea.
+ * Dashboard Controller of the mlts.
  */
 
 define([], function () {

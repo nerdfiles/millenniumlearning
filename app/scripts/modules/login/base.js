@@ -1,6 +1,6 @@
 /**
  * @ngdoc function
- * @name ourpangea.controller:LoginCtrl
+ * @name mlts.controller:LoginCtrl
  * @description
  * Login to see privileged account and features.
  */

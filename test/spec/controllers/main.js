@@ -2,14 +2,14 @@
 
 describe('Controller: HomeCtrl', function () {
 
-  beforeEach(module('ourpangea'));
+  beforeEach(module('mlts'));
 
-  var MainCtrl,
+  var HomeCtrl,
     scope;
 
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
+    HomeCtrl = $controller('HomeCtrl', {
       $scope: scope
     });
   }));

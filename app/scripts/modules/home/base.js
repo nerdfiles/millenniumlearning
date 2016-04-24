@@ -1,6 +1,6 @@
 /**
  * @ngdoc function
- * @name ourpangea.controller:HomeCtrl
+ * @name mlts.controller:HomeCtrl
  * @description
  * Landing page.
  */
@@ -11,7 +11,7 @@ define([
 
     function HomeCtrl ($scope, leafletData) {
 
-      $scope.message = 'OurPangea';
+      $scope.message = 'mlts';
       $scope.loadTopics = function () {
       };
       $scope.loadPhotos = function () {

@@ -1,6 +1,6 @@
 /**
  * @ngdoc function
- * @name ourpangea.directive:ngHideAuth
+ * @name mlts.directive:ngHideAuth
  * Authentication directive.
  * @usage
  *   <div ng-hide-auth></div>

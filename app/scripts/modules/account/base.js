@@ -1,6 +1,6 @@
 /**
  * @ngdoc function
- * @name ourpangea.controller:AccountCtrl
+ * @name mlts.controller:AccountCtrl
  * @description
  * Account profile metadata.
  */

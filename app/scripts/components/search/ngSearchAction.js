@@ -1,6 +1,6 @@
 /**
  * @ngdoc function
- * @name ourpangea.directive.ngSearchAction
+ * @name mlts.directive.ngSearchAction
  * @description
  * Search Action directive.
  */

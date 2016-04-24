@@ -1,6 +1,6 @@
 /**
  * @ngdoc function
- * @name ourpangea.config
+ * @name mlts.config
  * @description
  * Configuration of authenticated route business logic.
  */

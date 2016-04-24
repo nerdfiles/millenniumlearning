@@ -1,8 +1,8 @@
 /**
  * @ngdoc function
- * @name ourpangea.interface
+ * @name mlts.interface
  * @description
- * Basic interface for OurPangea.
+ * Basic interface for mlts.
  */
 
 define([
@@ -27,7 +27,7 @@ define([
   "angularfire"
 ], function (angularAMD, setup, authenticate, initialize, secured) {
 
-  var __interface__ = angular.module("ourPangea", [
+  var __interface__ = angular.module("mlts", [
     "firebase",
     "ngRoute",
     "ngAnimate",

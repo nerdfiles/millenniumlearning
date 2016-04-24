@@ -1,6 +1,6 @@
 /**
  * @ngdoc function
- * @name ourpangeaApp.directive:ngShowAuth
+ * @name mlts.directive:ngShowAuth
  * @description
  * The converse of the ng-hide-auth.
  */

@@ -1,6 +1,6 @@
 /**
  * @ngdoc function
- * @name ourpangea.run
+ * @name mlts.initialize
  * @description
  * Init.
  */
@@ -16,7 +16,6 @@ define([], function () {
     });
 
     $rootScope.worldViewConstruct = {
-      //generatedHeight : $window.innerHeight,
       generatedWidth  : $window.innerWidth - ($window.innerWidth * .2)
     };
 
