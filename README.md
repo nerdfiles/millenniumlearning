@@ -8,6 +8,13 @@ A learning management system facilitates the following:
 2. Students can tip other students to answer questions;
 3. Students can post questions when subscribed with a microsubscription
 
+## KPI
+
+1. Retention
+2. Engagement
+3. When/Where questions (hyperlexic machines) problem (training set)
+3.1. Apply Winograd caching
+
 ## TODO Features
 
 1. Micropayments and Microsubscriptions with Stripe (port `mini_charge` plugin).
