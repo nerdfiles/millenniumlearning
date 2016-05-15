@@ -1,8 +1,8 @@
 /***
-@fileOverview ./purchase.sol
+@fileOverview ./priceChargeSpecification.sol
 ***/
 
-contract Purchase {
+contract PriceChargeSpecification {
 
   uint public value;
   address public seller;
@@ -10,8 +10,8 @@ contract Purchase {
   enum State { Created, Locked, Inactive }
   State public state;
 
-  function Purchase () {
-    /// @name Purchase
+  function PriceChargeSpecification () {
+    /// @name PriceChargeSpecification
     /// @entity
     seller = msg.sender;
     value = msg.value / 2;
@@ -41,7 +41,7 @@ contract Purchase {
 
 
   event aborted();
-  event purchaseCommitted();
+  event priceChargeSpecificationCommitted();
   event itemReceived();
 
 
@@ -54,17 +54,17 @@ contract Purchase {
   }
 
 
-  function purchaseCommit () inState (State.Created) require (msg.value == 2 * value) {
-    /// @name purchaseCommit
+  function priceChargeSpecificationCommit () inState (State.Created) require (msg.value == 2 * value) {
+    /// @name priceChargeSpecificationCommit
     /// @description
-    purchaseCommitted();
+    priceChargeSpecificationCommitted();
     buyer = msg.sender;
     state = State.Locked;
   }
 
 
-  function purchasePush () onlyBuyer inState (State.Locked) {
-    /// @name purchasePush
+  function priceChargeSpecificationPush () onlyBuyer inState (State.Locked) {
+    /// @name priceChargeSpecificationPush
     /// @description
     itemReceived();
     buyer.send(value);
